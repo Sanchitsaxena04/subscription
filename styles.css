@@ -1,0 +1,89 @@
+
+
+
+body {
+    overflow: hidden; 
+  }
+.txtcolor{
+    color: blue;
+}
+.txtcolor1{
+    color: black;
+}
+#stripes{
+    background-color: rgb(233, 203, 28);
+    position: relative;
+    overflow: hidden;
+    z-index: 6;
+}
+.card{
+    height: 500px;
+   
+}
+
+#testThis{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.card-body{
+   text-align: center;
+}
+h5.linegap{
+    line-height: 0.5;
+}
+.cost{
+    display:flex;
+    width: fit-content;
+    margin: auto;
+}
+p.card-text{
+   text-align: left;
+  font-weight: 500;
+}
+.rotate{
+    background-color:  rgb(233, 203, 28);
+    transform: rotate(320deg);
+    position: absolute;
+    width: 130px;
+    margin-top: 10px;
+    margin-left: -10px;
+    z-index: 1;
+    padding: 5px;
+    
+}
+p.new{
+    text-align: center;
+    height: 10px;
+    font-weight: 600;
+}
+
+@media(min-width:390px) and (max-width:539px)
+{
+.final{
+    padding: 0px;
+    margin-top: 0px;
+  height: auto !important;
+  overflow:hidden;
+}
+#stripes{
+    background-color: white;
+}
+.final1{
+    display: none;
+}
+.final3{
+    display: none;
+}
+.final4{
+    display: none;
+}
+.mobile{
+    display: block !important;
+    background-color:  rgb(233, 203, 28);
+    height: fit-content;
+    width: 100%;
+    padding: 0px;
+    
+}
+}
